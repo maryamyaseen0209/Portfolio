@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maryam Yaseen | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <canvas id="particleCanvas"></canvas>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">MY</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <div class="hero-bg-rings"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="reveal-text">Maryam Yaseen</h1>
+        <p class="hero-title" id="typewriter"></p>
+        <p class="hero-desc">Building fast, scalable web applications with the MERN stack. Passionate about AI,
+          real-time systems, and clean code.</p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary"><span>View My Work</span><i class="fas fa-arrow-right"></i></a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-social">
+          <a href="mailto:mayamyaseen205@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/maryam-yaseen-ba5921352" target="_blank" aria-label="LinkedIn"><i
+              class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/maryamyaseen0209" target="_blank" aria-label="GitHub"><i
+              class="fab fa-github"></i></a>
+        </div>
+      </div>
+      <div class="hero-image" id="heroTilt">
+        <div class="hero-img-placeholder">
+          <span>MY</span>
+        </div>
+        <div class="hero-img-ring"></div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Computer Science student (expected 2027) with strong expertise in MERN stack development and building fast,
+            scalable web applications. Experienced in designing user-focused systems with secure authentication,
+            real-time communication, and dynamic data handling.</p>
+          <p>Proven problem-solver and competitive programmer with a GPA of 3.97/4.00. Seeking a Junior Full Stack
+            Developer role to apply my technical skills and drive impactful solutions.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num">3.97</span>
+              <span class="stat-label">GPA</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">3</span>
+              <span class="stat-label">Internships</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">4</span>
+              <span class="stat-label">Awards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-cards">
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-body">
+            <h3>Bachelor of Science in Computer Science</h3>
+            <p class="edu-institute">COMSATS University Islamabad</p>
+            <p class="edu-year">2023 – 2027</p>
+            <p class="edu-detail">GPA: 3.97 / 4.00</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fas fa-school"></i></div>
+          <div class="edu-body">
+            <h3>Intermediate in Computer Science (ICS)</h3>
+            <p class="edu-institute">Fazaia Inter College Minhas, Kamra</p>
+            <p class="edu-year">2021 – 2023</p>
+            <p class="edu-detail">Score: 981 / 1100 (89.18%)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Languages</h3>
+          <div class="skill-tags">
+            <span>Java</span><span>C++</span><span>JavaScript</span><span>SQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+          <div class="skill-tags">
+            <span>React.js</span><span>React
+              Native</span><span>HTML5</span><span>CSS3</span><span>Tailwind</span><span>Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-server"></i> Backend & Cloud</h3>
+          <div class="skill-tags">
+            <span>Node.js</span><span>Express</span><span>REST
+              APIs</span><span>Socket.io</span><span>WebRTC</span><span>OpenAI API</span><span>LangChain</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-database"></i> Databases</h3>
+          <div class="skill-tags">
+            <span>MongoDB</span><span>Mongoose</span><span>MySQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Dev & Core</h3>
+          <div class="skill-tags">
+            <span>Git/GitHub</span><span>Postman</span><span>VS Code</span><span>DSA</span><span>OOP</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-language"></i> Languages</h3>
+          <div class="skill-tags">
+            <span>English (Professional)</span><span>Urdu (Native)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card tilt-card">
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <h3>Study SparkAI</h3>
+            <span class="project-badge">AI EdTech Platform</span>
+          </div>
+          <p class="project-desc">AI-powered educational platform with Groq API for assignment generation, PDF-to-quiz
+            conversion, and real-time analytics.</p>
+          <div class="project-tech">
+            <span>MERN</span><span>Groq API</span><span>Socket.io</span><span>JWT</span><span>PWA</span>
+          </div>
+          <ul class="project-features">
+            <li>JWT role-based authentication</li>
+            <li>Socket.io real-time notifications</li>
+            <li>Zoom meeting integration</li>
+            <li>Responsive PWA design</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/maryamyaseen0209/Study-Spark-AI" target="_blank" class="btn-small"><i
+                class="fab fa-github"></i> Code</a>
+            <a href="https://spark-frontend-inky-theta.vercel.app" class="btn-small"><i
+                class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        <div class="project-card tilt-card">
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <h3>Doctor Appointment Website</h3>
+            <span class="project-badge">Healthcare</span>
+          </div>
+          <p class="project-desc">Complete doctor-patient booking workflow with secure authentication and appointment
+            management.</p>
+          <div class="project-tech">
+            <span>React.js</span><span>Tailwind CSS</span><span>MongoDB</span><span>JWT</span>
+          </div>
+          <ul class="project-features">
+            <li>Secure authentication & authorization</li>
+            <li>Doctor-patient booking workflow</li>
+            <li>Appointment scheduling & management</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/maryamyaseen0209/Doctor-Appointment-Website" target="_blank"
+              class="btn-small"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        <div class="project-card tilt-card">
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <h3>Learning Management System</h3>
+            <span class="project-badge">EdTech</span>
+          </div>
+          <p class="project-desc">Role-based LMS with course management, video content delivery, and student progress
+            tracking.</p>
+          <div class="project-tech">
+            <span>Node.js</span><span>Express</span><span>MongoDB</span><span>JWT</span>
+          </div>
+          <ul class="project-features">
+            <li>Role-based access control (admin/instructor/student)</li>
+            <li>Course & video content management</li>
+            <li>Progress tracking & analytics</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/maryamyaseen0209/Learning-Management-System-Website" target="_blank"
+              class="btn-small"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        <div class="project-card tilt-card">
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <h3>Entrepreneur & Investor Platform</h3>
+            <span class="project-badge">FinTech</span>
+          </div>
+          <p class="project-desc">Real-time messaging, video calls, secure pitch creation and document sharing for
+            entrepreneurs and investors.</p>
+          <div class="project-tech">
+            <span>MERN</span><span>WebRTC</span><span>Socket.io</span>
+          </div>
+          <ul class="project-features">
+            <li>Real-time messaging & video calls</li>
+            <li>Secure pitch creation & document sharing</li>
+            <li>Optimized MongoDB data models</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/maryamyaseen0209/Entrepreneur-and-Investor-collaboration-website"
+              target="_blank" class="btn-small"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="btn-small"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Frontend Developer Intern</h3>
+              <span class="timeline-company">DevelopersHub Corporation</span>
+              <span class="timeline-date">2025</span>
+            </div>
+            <ul>
+              <li>Developed responsive React.js interfaces with optimized performance and modern UI patterns.</li>
+              <li>Ensured pixel-perfect implementation and earned certification for high code quality.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>IT Intern</h3>
+              <span class="timeline-company">Pakistan Aeronautical Complex (PAC), Kamra</span>
+              <span class="timeline-date">2024</span>
+            </div>
+            <ul>
+              <li>Enhanced internal tools and collaborated on end-to-end ERP system processes.</li>
+              <li>Assisted in troubleshooting and optimizing workflow efficiency.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>IT Intern</h3>
+              <span class="timeline-company">RaqamPay</span>
+              <span class="timeline-date">2026</span>
+            </div>
+            <ul>
+              <li>Worked on software development and IT-related tasks.</li>
+              <li>Collaborated on web applications, strengthening problem-solving skills.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="container">
+      <h2 class="section-title">Achievements</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <i class="fas fa-laptop"></i>
+          <h3>Prime Minister's Laptop Scheme</h3>
+          <p>Awarded PM Laptop 2025</p>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-trophy"></i>
+          <h3>2nd Position, Competitive Programming</h3>
+          <p>CodeForison, GDG COMSATS</p>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-star"></i>
+          <h3>1st Position, ICS</h3>
+          <p>Fazaia Inter College</p>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-certificate"></i>
+          <h3>ISO Certified FBISE Ambassador</h3>
+          <p>FBISE Certification</p>
+        </div>
+        <div class="achievement-card">
+          <i class="fas fa-video"></i>
+          <h3>VisiSpark Participation</h3>
+          <p>Featured in episodes at COMSATS University</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:mayamyaseen205@gmail.com">mayamyaseen205@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+923275766296">+92-327-5766296</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Location</h4>
+              <p>Attock-43600, Punjab, Pakistan</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://linkedin.com/in/maryam-yaseen" target="_blank">linkedin.com/in/maryam-yaseen</a>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn btn-primary"><span>Send Message</span><i
+              class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Maryam Yaseen. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html xmlns:o='urn:schemas-microsoft-com:office:office'
+      xmlns:w='urn:schemas-microsoft-com:office:word'
+      xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--[if gte mso 9]>
+<xml>
+<w:WordDocument>
+<w:View>Print</w:View>
+<w:Zoom>100</w:Zoom>
+</w:WordDocument>
+</xml>
+<![endif]-->
+<style>
+  body { font-family: 'Calibri', 'Segoe UI', Arial, sans-serif; margin: 40px 60px; color: #1a1a1a; }
+  /* Front Page */
+  .front-page { page-break-after: always; text-align: center; padding-top: 120px; }
+  .front-page h1 { font-size: 42px; color: #7c3aed; margin-bottom: 8px; }
+  .front-page .subtitle { font-size: 24px; color: #3b82f6; margin-bottom: 40px; }
+  .front-page .details { font-size: 16px; line-height: 2.2; color: #444; }
+  .front-page .details strong { color: #1a1a1a; display: inline-block; width: 140px; }
+  .front-page .logo { font-size: 64px; font-weight: 800; color: #7c3aed; margin-bottom: 16px; opacity: 0.1; }
+  .front-page .domain { margin-top: 30px; font-size: 18px; color: #7c3aed; font-weight: 600; }
+  .front-page .line { width: 80px; height: 4px; background: linear-gradient(135deg, #7c3aed, #3b82f6); margin: 20px auto; border: none; }
+  /* Sections */
+  h2 { font-size: 26px; color: #7c3aed; border-bottom: 3px solid #7c3aed; padding-bottom: 8px; margin-top: 40px; }
+  h3 { font-size: 20px; color: #3b82f6; margin-top: 24px; }
+  h4 { font-size: 16px; color: #333; margin-top: 16px; }
+  p, li { font-size: 14px; line-height: 1.7; color: #333; }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+  th, td { border: 1px solid #ddd; padding: 10px 14px; text-align: left; font-size: 13px; }
+  th { background: #7c3aed; color: #fff; }
+  tr:nth-child(even) { background: #f9f5ff; }
+  pre { background: #1a1a2e; color: #e0e0e0; padding: 16px 20px; border-radius: 8px; font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; overflow-x: auto; line-height: 1.5; white-space: pre-wrap; }
+  code { font-family: 'Consolas', 'Courier New', monospace; font-size: 12px; }
+  .tech-tag { display: inline-block; background: #ede9fe; color: #7c3aed; padding: 3px 10px; border-radius: 4px; font-size: 12px; margin: 2px; font-weight: 600; }
+  .screenshot { border: 1px solid #ddd; border-radius: 8px; padding: 40px 20px; text-align: center; background: #fafafa; margin: 16px 0; color: #999; font-style: italic; }
+  .screenshot img { max-width: 100%; border-radius: 6px; }
+  .toc { margin: 20px 0; }
+  .toc a { color: #3b82f6; text-decoration: none; }
+  .toc a:hover { text-decoration: underline; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 4px; }
+  .footer-note { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; color: #888; font-size: 12px; }
+  .page-break { page-break-before: always; }
+  .project-box { border: 1px solid #e0d4f7; border-radius: 8px; padding: 20px; margin: 16px 0; background: #faf8ff; }
+</style>
+</head>
+<body>
+
+<!-- ============= FRONT PAGE ============= -->
+<div class="front-page">
+  <div class="logo">MY</div>
+  <h1>Maryam Yaseen</h1>
+  <div class="line"></div>
+  <p class="subtitle">Personal Portfolio Report</p>
+  <p class="domain">Full Stack Development Internship</p>
+  <br>
+  <div class="details">
+    <p><strong>Full Name:</strong> Maryam Yaseen</p>
+    <p><strong>Domain:</strong> Full Stack Development</p>
+    <p><strong>Email:</strong> mayamyaseen205@gmail.com</p>
+    <p><strong>Phone:</strong> +92-327-5766296</p>
+    <p><strong>Date:</strong> July 2025</p>
+  </div>
+</div>
+
+<!-- ============= TABLE OF CONTENTS ============= -->
+<div class="page-break"></div>
+<h2>Table of Contents</h2>
+<div class="toc">
+  <p>1. <a href="#intro">Introduction</a></p>
+  <p>2. <a href="#education">Education &amp; Certifications</a></p>
+  <p>3. <a href="#projects">Projects Showcase</a></p>
+  <p>4. <a href="#code">Code Implementation</a></p>
+  <p>5. <a href="#skills">Technical Skills</a></p>
+  <p>6. <a href="#experience">Experience</a></p>
+  <p>7. <a href="#achievements">Achievements</a></p>
+  <p>8. <a href="#screenshots">Screenshots</a></p>
+  <p>9. <a href="#contact">Contact Information</a></p>
+</div>
+
+<!-- ============= 1. INTRODUCTION ============= -->
+<div class="page-break"></div>
+<h2 id="intro">1. Introduction</h2>
+<p>I am Maryam Yaseen, a Computer Science student at COMSATS University Islamabad (expected 2027) with a strong passion for full stack web development. I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js) and have built several production-grade applications featuring secure authentication, real-time communication, AI integration, and responsive design.</p>
+<p>With a GPA of 3.97/4.00 and hands-on experience across three internships, I am seeking a Junior Full Stack Developer role where I can apply my technical expertise to build impactful, scalable solutions.</p>
+<p>This report documents my projects, technical skills, professional experience, and the implementation details of my portfolio website.</p>
+
+<!-- ============= 2. EDUCATION ============= -->
+<h2 id="education">2. Education &amp; Certifications</h2>
+
+<h3>Formal Education</h3>
+<table>
+  <tr><th>Degree</th><th>Institution</th><th>Year</th><th>Grade</th></tr>
+  <tr><td>BS Computer Science</td><td>COMSATS University Islamabad</td><td>2023 - 2027</td><td>GPA 3.97 / 4.00</td></tr>
+  <tr><td>ICS (Intermediate)</td><td>Fazaia Inter College Minhas, Kamra</td><td>2021 - 2023</td><td>981/1100 (89.18%)</td></tr>
+</table>
+
+<h3>Certifications &amp; Achievements</h3>
+<ul>
+  <li><strong>Prime Minister's Laptop Scheme</strong> - Awarded PM Laptop 2025</li>
+  <li><strong>ISO Certified FBISE Ambassador</strong></li>
+  <li><strong>Frontend Developer Intern Certification</strong> - DevelopersHub Corporation (high code quality)</li>
+</ul>
+
+<!-- ============= 3. PROJECTS ============= -->
+<div class="page-break"></div>
+<h2 id="projects">3. Projects Showcase</h2>
+
+<div class="project-box">
+  <h3>Study SparkAI &mdash; AI EdTech Platform</h3>
+  <p><strong>Tech Stack:</strong> <span class="tech-tag">MERN</span> <span class="tech-tag">Groq API</span> <span class="tech-tag">Socket.io</span> <span class="tech-tag">JWT</span> <span class="tech-tag">PWA</span></p>
+  <p><strong>Description:</strong> An AI-powered educational platform that leverages the Groq API for intelligent assignment generation, PDF-to-quiz conversion, and real-time learning analytics.</p>
+  <p><strong>Key Features:</strong></p>
+  <ul>
+    <li>JWT-based role-based authentication (Admin, Instructor, Student)</li>
+    <li>Real-time notifications via Socket.io</li>
+    <li>Zoom meeting integration for live classes</li>
+    <li>Responsive Progressive Web App (PWA) design</li>
+    <li>AI-powered quiz generation from PDF documents</li>
+  </ul>
+  <p><strong>Outcome:</strong> A fully functional EdTech platform enabling seamless AI-assisted learning and content generation.</p>
+</div>
+
+<div class="project-box">
+  <h3>Doctor Appointment Website</h3>
+  <p><strong>Tech Stack:</strong> <span class="tech-tag">React.js</span> <span class="tech-tag">Tailwind CSS</span> <span class="tech-tag">MongoDB</span> <span class="tech-tag">JWT</span></p>
+  <p><strong>Description:</strong> A full-stack healthcare booking system with secure authentication and complete doctor-patient appointment management workflow.</p>
+  <p><strong>Key Features:</strong></p>
+  <ul>
+    <li>Secure user registration and login with JWT</li>
+    <li>Doctor profile management and availability scheduling</li>
+    <li>Patient appointment booking and cancellation</li>
+    <li>Admin dashboard for managing users and appointments</li>
+  </ul>
+  <p><strong>Outcome:</strong> Streamlined healthcare appointment process with role-specific dashboards.</p>
+</div>
+
+<div class="project-box">
+  <h3>Learning Management System (LMS)</h3>
+  <p><strong>Tech Stack:</strong> <span class="tech-tag">Node.js</span> <span class="tech-tag">Express</span> <span class="tech-tag">MongoDB</span> <span class="tech-tag">JWT</span></p>
+  <p><strong>Description:</strong> A role-based LMS supporting course creation, video content delivery, and student progress tracking with seamless frontend integration.</p>
+  <p><strong>Key Features:</strong></p>
+  <ul>
+    <li>Role-based access control (Admin, Instructor, Student)</li>
+    <li>Course creation and video content management</li>
+    <li>Student enrollment and progress tracking</li>
+    <li>RESTful API design with Express.js</li>
+  </ul>
+  <p><strong>Outcome:</strong> A scalable LMS platform facilitating online education delivery.</p>
+</div>
+
+<div class="project-box">
+  <h3>Entrepreneur &amp; Investor Platform</h3>
+  <p><strong>Tech Stack:</strong> <span class="tech-tag">MERN</span> <span class="tech-tag">WebRTC</span> <span class="tech-tag">Socket.io</span></p>
+  <p><strong>Description:</strong> A platform connecting entrepreneurs with investors featuring real-time messaging, video calls, and secure pitch document sharing.</p>
+  <p><strong>Key Features:</strong></p>
+  <ul>
+    <li>Real-time chat and video calling via WebRTC</li>
+    <li>Secure pitch creation and document sharing</li>
+    <li>Optimized MongoDB schema design</li>
+    <li>Socket.io-powered real-time updates</li>
+  </ul>
+  <p><strong>Outcome:</strong> An interactive platform bridging entrepreneurs and investors through real-time collaboration tools.</p>
+</div>
+
+<!-- ============= 4. CODE IMPLEMENTATION ============= -->
+<div class="page-break"></div>
+<h2 id="code">4. Code Implementation</h2>
+<p>The personal portfolio website was built using HTML5, CSS3, and vanilla JavaScript. Below are key implementation details:</p>
+
+<h3>4.1 Portfolio Structure (HTML)</h3>
+<p>The HTML is organized into semantic sections: navigation bar, hero section, about, education, skills, projects, experience timeline, achievements, and contact form.</p>
+<pre>&lt;!-- Navigation with mobile hamburger toggle --&gt;
+&lt;nav id="navbar"&gt;
+  &lt;div class="nav-container"&gt;
+    &lt;a href="#" class="nav-logo"&gt;MY&lt;/a&gt;
+    &lt;ul class="nav-links"&gt;
+      &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#skills"&gt;Skills&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#projects"&gt;Projects&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class="hamburger" id="hamburger"&gt;
+      &lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;&lt;span&gt;&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;</pre>
+
+<h3>4.2 CSS Styling &amp; Animations</h3>
+<p>The design uses a dark theme with purple/blue gradient accents. Key styling decisions include:</p>
+<ul>
+  <li><strong>Dark background (#0a0a0a)</strong> for a modern, professional look</li>
+  <li><strong>Gradient accents (purple #7c3aed to blue #3b82f6)</strong> for visual hierarchy</li>
+  <li><strong>Glassmorphism effects</strong> using rgba backgrounds with backdrop-filter blur on navigation</li>
+  <li><strong>Hover animations</strong> with translateY transforms and box-shadow transitions</li>
+  <li><strong>Responsive grid layouts</strong> using CSS Grid (auto-fit + minmax) for project cards and skills</li>
+</ul>
+
+<pre>/* Example: Gradient text effect on hero heading */
+.hero-text h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, #fff, #7c3aed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Example: Card hover effect */
+.project-card:hover {
+  border-color: #7c3aed;
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(124,58,237,0.1);
+}</pre>
+
+<h3>4.3 JavaScript Interactivity</h3>
+<p>The site includes three main interactive features:</p>
+
+<pre>// 1. Mobile hamburger menu toggle
+const hamburger = document.getElementById('hamburger');
+const navLinks = document.querySelector('.nav-links');
+hamburger.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+
+// 2. Scroll-triggered animations with Intersection Observer
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.style.opacity = '1';
+      entry.target.style.transform = 'translateY(0)';
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.project-card, .skill-category').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(30px)';
+  el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+  observer.observe(el);
+});</pre>
+
+<h3>4.4 Deployment Instructions</h3>
+<p>To deploy this portfolio:</p>
+<ol>
+  <li>Upload all three files (index.html, style.css, script.js) to any static web host (Netlify, Vercel, GitHub Pages).</li>
+  <li>Ensure the file paths remain relative (no server-side dependencies required).</li>
+  <li>The site is fully responsive and works on mobile, tablet, and desktop devices.</li>
+</ol>
+
+<!-- ============= 5. SKILLS ============= -->
+<div class="page-break"></div>
+<h2 id="skills">5. Technical Skills</h2>
+
+<table>
+  <tr><th>Category</th><th>Technologies</th></tr>
+  <tr><td><strong>Languages</strong></td><td>Java, C++, JavaScript, SQL</td></tr>
+  <tr><td><strong>Frontend</strong></td><td>React.js, React Native, HTML5, CSS3, Tailwind CSS, Bootstrap</td></tr>
+  <tr><td><strong>Backend &amp; Cloud</strong></td><td>Node.js, Express.js, REST APIs, Socket.io, WebRTC, OpenAI API, LangChain</td></tr>
+  <tr><td><strong>Databases</strong></td><td>MongoDB, Mongoose, MySQL</td></tr>
+  <tr><td><strong>Dev Tools</strong></td><td>Git/GitHub, Postman, VS Code</td></tr>
+  <tr><td><strong>Core CS</strong></td><td>Data Structures &amp; Algorithms, Object-Oriented Programming</td></tr>
+  <tr><td><strong>Languages (Spoken)</strong></td><td>English (Professional), Urdu (Native)</td></tr>
+</table>
+
+<!-- ============= 6. EXPERIENCE ============= -->
+<h2 id="experience">6. Experience</h2>
+
+<div class="project-box">
+  <h3>Frontend Developer Intern</h3>
+  <p><strong>DevelopersHub Corporation</strong> | 2025</p>
+  <ul>
+    <li>Developed responsive React.js interfaces with optimized performance and modern UI patterns.</li>
+    <li>Ensured pixel-perfect implementation and earned certification for high code quality.</li>
+  </ul>
+</div>
+
+<div class="project-box">
+  <h3>IT Intern</h3>
+  <p><strong>Pakistan Aeronautical Complex (PAC), Kamra</strong> | 2024</p>
+  <ul>
+    <li>Enhanced internal tools and collaborated on end-to-end ERP system processes.</li>
+    <li>Assisted in troubleshooting and optimizing workflow efficiency.</li>
+  </ul>
+</div>
+
+<div class="project-box">
+  <h3>IT Intern</h3>
+  <p><strong>RaqamPay</strong> | 2024</p>
+  <ul>
+    <li>Worked on software development and IT-related tasks.</li>
+    <li>Collaborated on web applications, strengthening problem-solving skills.</li>
+  </ul>
+</div>
+
+<!-- ============= 7. ACHIEVEMENTS ============= -->
+<h2 id="achievements">7. Achievements &amp; Honors</h2>
+<table>
+  <tr><th>Achievement</th><th>Organization</th><th>Year</th></tr>
+  <tr><td>Prime Minister's Laptop Scheme</td><td>Government of Pakistan</td><td>2025</td></tr>
+  <tr><td>2nd Position, Competitive Programming</td><td>CodeForison, GDG COMSATS</td><td>2025</td></tr>
+  <tr><td>1st Position, ICS</td><td>Fazaia Inter College</td><td>2023</td></tr>
+  <tr><td>ISO Certified FBISE Ambassador</td><td>FBISE</td><td>2023</td></tr>
+  <tr><td>VisiSpark Participant</td><td>COMSATS University</td><td>2025</td></tr>
+</table>
+
+<!-- ============= 8. SCREENSHOTS ============= -->
+<div class="page-break"></div>
+<h2 id="screenshots">8. Screenshots</h2>
+<p>The following screenshots demonstrate the working of the personal portfolio website:</p>
+
+<div class="screenshot">
+  <p><strong>Figure 1:</strong> Homepage / Hero Section</p>
+  <!-- Insert screenshot here: Open index.html in browser, capture hero section -->
+  <p>[Insert screenshot of hero section with name, title, and call-to-action buttons]</p>
+</div>
+
+<div class="screenshot">
+  <p><strong>Figure 2:</strong> Projects Section</p>
+  <!-- Insert screenshot here: Scroll to projects section -->
+  <p>[Insert screenshot showing project cards with tech tags and descriptions]</p>
+</div>
+
+<div class="screenshot">
+  <p><strong>Figure 3:</strong> Skills Section</p>
+  <!-- Insert screenshot here: Scroll to skills section -->
+  <p>[Insert screenshot showing skill categories and technology tags]</p>
+</div>
+
+<div class="screenshot">
+  <p><strong>Figure 4:</strong> Experience Timeline</p>
+  <!-- Insert screenshot here: Scroll to experience section -->
+  <p>[Insert screenshot showing timeline layout with internship details]</p>
+</div>
+
+<div class="screenshot">
+  <p><strong>Figure 5:</strong> Contact Form</p>
+  <!-- Insert screenshot here: Scroll to contact section -->
+  <p>[Insert screenshot showing contact form and information]</p>
+</div>
+
+<div class="screenshot">
+  <p><strong>Figure 6:</strong> Mobile Responsive View</p>
+  <!-- Insert screenshot here: Open in mobile/tablet view -->
+  <p>[Insert screenshot showing responsive layout on mobile/tablet]</p>
+</div>
+
+<!-- ============= 9. CONTACT ============= -->
+<div class="page-break"></div>
+<h2 id="contact">9. Contact Information</h2>
+
+<table>
+  <tr><th>Method</th><th>Details</th></tr>
+  <tr><td><strong>Email</strong></td><td><a href="mailto:mayamyaseen205@gmail.com">mayamyaseen205@gmail.com</a></td></tr>
+  <tr><td><strong>Phone</strong></td><td>+92-327-5766296</td></tr>
+  <tr><td><strong>Location</strong></td><td>Attock-43600, Punjab, Pakistan</td></tr>
+  <tr><td><strong>LinkedIn</strong></td><td><a href="https://linkedin.com/in/maryam-yaseen">linkedin.com/in/maryam-yaseen</a></td></tr>
+  <tr><td><strong>GitHub</strong></td><td><a href="https://github.com/maryam-yaseen">github.com/maryam-yaseen</a></td></tr>
+</table>
+
+<br>
+<p>I am actively seeking a Junior Full Stack Developer role where I can leverage my MERN stack expertise, competitive programming background, and passion for building impactful web applications.</p>
+
+<!-- ============= FOOTER ============= -->
+<div class="footer-note">
+  <p>Report prepared by Maryam Yaseen &mdash; July 2025</p>
+  <p>Portfolio available at: <a href="#">[Live Portfolio URL]</a></p>
+</div>
+
+</body>
+</html>
